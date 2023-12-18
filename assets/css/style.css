@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 32px;
+  margin: auto;
+}
+
+body {
+  color: #041735;
+  font-size: 14px;
+}
+
+nav {
+  width: 100%;
+}
+nav .container-nav {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  padding: 0 32px;
+}
+nav .container-nav .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+nav .container-nav .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+nav .container-nav .navbar ul li {
+  color: #041735;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav .container-nav .navbar ul li:hover {
+  color: #2845BA;
+}
+nav .container-nav .navbar button {
+  width: 150px;
+  background-color: #2845BA;
+  border: 2px solid #2845BA;
+  padding: 15px 0;
+  color: white;
+  transition: all 0.5s ease;
+}
+nav .container-nav .navbar button:hover {
+  background-color: white;
+  color: #2845BA;
+}
+
+header {
+  width: 100%;
+}
+header .head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .head .head1 {
+  width: 50%;
+  padding-left: 75px;
+  padding-right: 50px;
+  font-family: "Cabin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .head .head1 span {
+  width: 200px;
+  background-color: rgb(221, 245, 255);
+  font-weight: 700;
+  color: #2845BA;
+}
+header .head .head1 h1 {
+  font-size: 53px;
+  font-family: "Cabin", sans-serif;
+}
+header .head .head1 p {
+  font-size: 23px;
+}
+header .head .head1 .div-input {
+  width: 100%;
+  display: flex;
+}
+header .head .head1 .div-input input {
+  width: 60%;
+  border-radius: 3px;
+  border: 1px solid #2845BA;
+  padding: 25px;
+}
+header .head .head1 .div-input button {
+  width: 33%;
+  padding: 22px;
+  background-color: #2845BA;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+header .head .head-img {
+  width: 47%;
+}
+header .head .head-img img {
+  width: 100%;
+}
+
+.olla {
+  width: 100%;
+}
+.olla .olla-all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  padding: 100px 0;
+}
+.olla .olla-all .olla-head {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.olla .olla-all .olla-head h2 {
+  font-size: 40px;
+  font-family: "Cabin", sans-serif;
+}
+.olla .olla-all .olla-head p {
+  font-size: 21px;
+  color: rgb(90, 89, 89);
+}
+.olla .olla-all .olla-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.olla .olla-all .olla-text .div3 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  padding: 50px;
+  background-color: #d9ebf7;
+}
+.olla .olla-all .olla-text .div3 h5 {
+  font-size: 25px;
+}
+.olla .olla-all .olla-text .div3 p {
+  font-size: 21px;
+  color: rgb(90, 89, 89);
+}/*# sourceMappingURL=style.css.map */
