@@ -31,7 +31,7 @@ nav .container-nav .navbar {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 nav .container-nav .navbar ul {
   list-style: none;
@@ -52,7 +52,7 @@ nav .container-nav .navbar ul li:hover {
 nav .container-nav .navbar button {
   width: 150px;
   background-color: #2845BA;
-  border: 2px solid #2845BA;
+  border: 1px solid #2845BA;
   padding: 15px 0;
   color: white;
   transition: all 0.5s ease;
@@ -60,6 +60,9 @@ nav .container-nav .navbar button {
 nav .container-nav .navbar button:hover {
   background-color: white;
   color: #2845BA;
+}
+nav .container-nav .navbar i {
+  display: none;
 }
 
 header {
@@ -114,9 +117,13 @@ header .head .head1 .div-input button {
 }
 header .head .head-img {
   width: 47%;
+  height: 700px;
 }
 header .head .head-img img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .olla {
@@ -154,7 +161,7 @@ header .head .head-img img {
   justify-content: space-between;
 }
 .olla .olla-all .olla-text .div3 {
-  width: 30%;
+  width: 32%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,12 +169,561 @@ header .head .head-img img {
   text-align: center;
   gap: 30px;
   padding: 50px;
-  background-color: #d9ebf7;
+  background-color: #ebf0f3;
+}
+.olla .olla-all .olla-text .div3 i {
+  font-size: 30px;
+  cursor: pointer;
 }
 .olla .olla-all .olla-text .div3 h5 {
   font-size: 25px;
+  font-family: "Cabin", sans-serif;
 }
 .olla .olla-all .olla-text .div3 p {
   font-size: 21px;
   color: rgb(90, 89, 89);
-}/*# sourceMappingURL=style.css.map */
+}
+.olla .olla-all .olla-text .div3 .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.olla .olla-all .olla-text .div3 .btn button {
+  width: 32%;
+  background-color: #2845BA;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+.olla .olla-all .olla-text .div3 .btn button a {
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+  width: 100%;
+}
+.about .about-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.about .about-all .about-img {
+  width: 50%;
+  height: 700px;
+}
+.about .about-all .about-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .about-all .about-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 55px 0 55px;
+}
+.about .about-all .about-text h2 {
+  font-size: 40px;
+  font-family: "Cabin", sans-serif;
+}
+.about .about-all .about-text h5 {
+  font-size: 22px;
+  font-family: "Cabin", sans-serif;
+}
+.about .about-all .about-text p {
+  font-size: 20px;
+  font-family: "Cabin", sans-serif;
+}
+.about .about-all .about-text .line {
+  width: 100%;
+  background-color: grey;
+  height: 1px;
+}
+
+footer {
+  width: 100%;
+  background-color: #041735;
+}
+footer .footer-all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+footer .footer-all .f1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 100px 0 50px 0;
+}
+footer .footer-all .f1 .f1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-all .f1 .f1-text h2 {
+  font-size: 37px;
+  font-family: "Cabin", sans-serif;
+}
+footer .footer-all .f1 .f1-text p {
+  font-size: 20px;
+  font-family: "Cabin", sans-serif;
+}
+footer .footer-all .f1 button {
+  width: 150px;
+  padding: 10px 0;
+  background-color: #2845BA;
+  color: white;
+  border: none;
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+}
+footer .footer-all .f-line {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+footer .footer-all .f2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+footer .footer-all .f2 .div4 {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-all .f2 .div4 img {
+  width: 50%;
+}
+footer .footer-all .f2 .div4 h4 {
+  font-size: 20px;
+}
+footer .footer-all .f2 .div4 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-all .f2 .div4 ul li {
+  font-size: 17px;
+}
+footer .footer-all .f2 .div3 {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-all .f2 .div3 h4 {
+  font-size: 20px;
+}
+footer .footer-all .f2 .div3 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-all .f2 .div3 ul li {
+  font-size: 17px;
+}
+footer .footer-all .f2 .div5 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 200px;
+}
+footer .footer-all .f2 .div5 h4 {
+  font-size: 20px;
+}
+footer .footer-all .f2 .div5 p {
+  font-size: 17px;
+}
+footer .footer-all .f2 .div5 .div-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-all .f2 .div5 .div-btn input {
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+}
+footer .footer-all .f2 .div5 .div-btn button {
+  width: 20%;
+  padding: 11px;
+  background-color: #2845BA;
+  border: none;
+}
+footer .footer-all .f2 .div5 .div-btn button i {
+  font-size: 30px;
+  color: white;
+}
+footer .footer-all .f2 .div5 .icon {
+  display: flex;
+  gap: 20px;
+}
+footer .footer-all .f2 .div5 .icon i {
+  font-size: 20px;
+}
+footer .footer-all .f3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+footer .footer-all .f3 p {
+  font-size: 17px;
+}
+footer .footer-all .f3 p i {
+  color: #2845BA;
+}
+footer .footer-all .f3 p a {
+  text-decoration: none;
+  color: #2845BA;
+}
+
+@media screen and (max-width: 990px) {
+  nav .container-nav .navbar ul {
+    display: none;
+  }
+  nav .container-nav .navbar button {
+    display: none;
+  }
+  nav .container-nav .navbar i {
+    display: block;
+    font-size: 30px;
+  }
+  header .head .head1 {
+    padding: 0;
+  }
+  header .head .head1 h1 {
+    font-size: 30px;
+  }
+  header .head .head1 .div-input {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header .head .head1 .div-input input {
+    width: 80%;
+    padding: 20px;
+  }
+  header .head .head1 .div-input button {
+    width: 180px;
+    padding: 15px;
+  }
+  header .head .head-img {
+    height: 400px;
+  }
+  .olla .container {
+    max-width: 950px;
+  }
+  .olla .container .olla-all .olla-head {
+    width: 80%;
+  }
+  .olla .container .olla-all .olla-head h2 {
+    font-size: 28px;
+  }
+  .olla .container .olla-all .olla-text {
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .olla .container .olla-all .olla-text .div3 {
+    width: 47.3%;
+    padding: 50px 20px;
+  }
+  .about .container {
+    max-width: 750px;
+  }
+  .about .container .about-all {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about .container .about-all .about-img {
+    height: 400px;
+    width: 70%;
+  }
+  .about .container .about-all .about-text {
+    width: 80%;
+    padding: 0;
+  }
+  .about .container .about-all .about-text h2 {
+    font-size: 27px;
+  }
+  .about .container .about-all .about-text h5 {
+    font-size: 19px;
+  }
+  .about .container .about-all .about-text p {
+    font-size: 18px;
+  }
+  footer .container {
+    max-width: 800px;
+  }
+  footer .container .footer-all .f1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .container .footer-all .f1 .f1-text h2 {
+    font-size: 25px;
+  }
+  footer .container .footer-all .f1 button {
+    padding: 20px 0;
+  }
+  footer .container .footer-all .f2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  footer .container .footer-all .f2 .div5 {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+  }
+  footer .container .footer-all .f2 .div4 {
+    width: 25%;
+  }
+  footer .container .footer-all .f2 .div4 img {
+    margin: 0;
+  }
+  footer .container .footer-all .f2 .div3 {
+    width: 25%;
+    margin: 0;
+  }
+  footer .container .footer-all .f3 {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .head {
+    padding-top: 30px;
+  }
+  header .head .head1 {
+    padding: 0;
+    width: 80%;
+  }
+  header .head .head1 h1 {
+    font-size: 45px;
+  }
+  header .head .head1 .div-input {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+  header .head .head1 .div-input input {
+    width: 80%;
+    padding: 20px;
+  }
+  header .head .head1 .div-input button {
+    width: 180px;
+    padding: 15px;
+  }
+  header .head .head-img {
+    display: none;
+  }
+  .olla .container {
+    max-width: 950px;
+  }
+  .olla .container .olla-all .olla-head {
+    width: 80%;
+  }
+  .olla .container .olla-all .olla-head h2 {
+    font-size: 28px;
+  }
+  .olla .container .olla-all .olla-text {
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .olla .container .olla-all .olla-text .div3 {
+    width: 46.3%;
+    padding: 50px 20px;
+  }
+  .olla .container .olla-all .olla-text .div3 h5 {
+    font-size: 20px;
+  }
+  .olla .container .olla-all .olla-text .div3 p {
+    font-size: 17px;
+  }
+  .about .container {
+    max-width: 750px;
+  }
+  .about .container .about-all {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .about .container .about-all .about-img {
+    height: 400px;
+    width: 80%;
+  }
+  .about .container .about-all .about-text {
+    width: 80%;
+    padding: 0;
+  }
+  .about .container .about-all .about-text h2 {
+    font-size: 27px;
+  }
+  .about .container .about-all .about-text h5 {
+    font-size: 19px;
+  }
+  .about .container .about-all .about-text p {
+    font-size: 18px;
+  }
+  footer .container {
+    max-width: 600px;
+  }
+  footer .container .footer-all .f1 .f1-text {
+    padding-right: 50px;
+  }
+  footer .container .footer-all .f1 .f1-text h2 {
+    font-size: 25px;
+  }
+  footer .container .footer-all .f1 button {
+    padding: 20px 0;
+  }
+  footer .container .footer-all .f2 {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  footer .container .footer-all .f2 .div5 {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+  }
+  footer .container .footer-all .f2 .ol {
+    width: 100%;
+  }
+  footer .container .footer-all .f2 .div4 {
+    width: 40%;
+  }
+  footer .container .footer-all .f2 .div4 img {
+    margin: 0;
+  }
+  footer .container .footer-all .f2 .div3 {
+    width: 40%;
+    margin: 0;
+  }
+  footer .container .footer-all .f3 {
+    padding-top: 10px;
+  }
+  footer .container .footer-all .f3 p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .head .head1 {
+    padding: 0 20px;
+    width: 100%;
+  }
+  header .head .head1 h1 {
+    font-size: 30px;
+  }
+  header .head .head1 .div-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  header .head .head1 .div-input input {
+    width: 100%;
+    padding: 20px;
+  }
+  header .head .head1 .div-input button {
+    width: 180px;
+    padding: 15px;
+  }
+  header .head .head-img {
+    display: none;
+  }
+  .olla .container {
+    padding: 0 20px;
+  }
+  .olla .container .olla-all .olla-head {
+    width: 80%;
+  }
+  .olla .container .olla-all .olla-head h2 {
+    font-size: 28px;
+  }
+  .olla .container .olla-all .olla-text {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .olla .container .olla-all .olla-text .div3 {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .olla .container .olla-all .olla-text .div3 h5 {
+    font-size: 20px;
+  }
+  .olla .container .olla-all .olla-text .div3 p {
+    font-size: 22px;
+  }
+  .about .container {
+    padding: 0 20px;
+  }
+  .about .container .about-all {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .about .container .about-all .about-img {
+    height: 400px;
+    width: 100%;
+  }
+  .about .container .about-all .about-text {
+    width: 100%;
+    padding: 0;
+  }
+  .about .container .about-all .about-text h2 {
+    font-size: 27px;
+  }
+  .about .container .about-all .about-text h5 {
+    font-size: 19px;
+  }
+  .about .container .about-all .about-text p {
+    font-size: 18px;
+  }
+  footer .container {
+    padding: 0 20px;
+  }
+  footer .container .footer-all .f1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .container .footer-all .f1 .f1-text h2 {
+    font-size: 25px;
+  }
+  footer .container .footer-all .f1 button {
+    padding: 20px 0;
+  }
+  footer .container .footer-all .f2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  footer .container .footer-all .f3 {
+    padding-top: 10px;
+  }
+  footer .container .footer-all .f3 p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.CSS.map */
