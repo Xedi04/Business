@@ -14,7 +14,7 @@ fetch(" http://localhost:3000/OLLA")
         <p>${element.description}</p>
         <div class="btn">
             <button id="delete" onclick="Delete(${element.id})">Delete</button>
-            <button id="update">Update</button>
+            <button id="update" onclick="Update(${element.id})">Update</button>
             <button id="getall" onclick="GoToDetails(${element.id})">GetAll</button>
         </div>
     </div>
@@ -28,6 +28,10 @@ Load.addEventListener("click", ()=>{
     page+=3;
     Show();
 })
+
+function Update(id){
+    window.location=`./update.html?id=${id}`
+}
 
 function Delete(id){
     axios.delete(`http://localhost:3000/OLLA/${id}`)
@@ -47,6 +51,7 @@ function Heart(id){
         axios.post("http://localhost:3000/FAVORITES/", res.data)
     })
 }
+
 
 let navbar=document.querySelector("#nav");
 

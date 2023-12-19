@@ -179,8 +179,21 @@ header .head .head-img img {
   gap: 30px;
   font-size: 20px;
 }
+.olla .olla-all .olla-text form img {
+  width: 40%;
+  margin: auto;
+}
 .olla .olla-all .olla-text form input {
   padding: 10px 0;
+}
+.olla .olla-all .olla-text form button {
+  background-color: #041735;
+  padding: 5px 0;
+  border: none;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  cursor: pointer;
 }
 .olla .olla-all .olla-text .div3 {
   width: 32%;
@@ -200,6 +213,9 @@ header .head .head-img img {
 .olla .olla-all .olla-text .div3 h5 {
   font-size: 25px;
   font-family: "Cabin", sans-serif;
+}
+.olla .olla-all .olla-text .div3 img {
+  width: 30%;
 }
 .olla .olla-all .olla-text .div3 p {
   font-size: 21px;
@@ -753,4 +769,4 @@ footer .footer-all .f3 p a {
   footer .container .footer-all .f3 p {
     font-size: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.CSS.map */
