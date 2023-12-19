@@ -20,7 +20,7 @@ body {
 
 nav {
     width: 100%;
-
+    background-color: white;
     .container-nav {
         max-width: 1500px;
         width: 100%;
@@ -42,6 +42,13 @@ nav {
                     font-family: "Open Sans", sans-serif;
                     font-weight: 600;
                     cursor: pointer;
+                    a{
+                        text-decoration: none;
+                        color:#041735;
+                        &:hover {
+                            color: #2845BA;
+                        }
+                    }
 
                     &:hover {
                         color: #2845BA;
@@ -165,7 +172,21 @@ object-fit: cover;
 
         .olla-text {
             @include mini;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            form{
+                width: 50%;
+                background-color: #2845BA;
+                padding: 50px;
+                @include flex-d;
+                color: white;
+                gap: 30px;
+                font-size: 20px;
+                input{
+                    padding: 10px 0;
+                }
+            }
 
             .div3 {
                 width: 32%;
@@ -406,7 +427,12 @@ footer {
                     display: flex;
                     gap: 20px;
                     i{
-                        font-size: 20px
+                        font-size: 20px;
+                        transition: all .5s ease;
+                        cursor: pointer;
+                        &:hover{
+                            transform: rotateY(180deg);
+                        }
                     }
                 }
             }
